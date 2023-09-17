@@ -1,0 +1,42 @@
+.container {
+  flex: 1;
+  display: flex;
+  padding: 24px 24px 35px 24px;
+  gap: 18px;
+  border-radius: 2px;
+  background: #3a6150;
+}
+
+.title {
+  margin: 0;
+  color: var(--White, #fff);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 27px */
+}
+
+.text {
+  color: var(--White, #fff);
+  font-family: Outfit;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+}
+
+.button {
+  color: var(--White, #fff);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  text-decoration-line: underline;
+  background-color: transparent;
+  border: none;
+  margin-top: 10px;
+}
+
+.image {
+  min-width: 180px;
+  max-height: 230px;
+}
